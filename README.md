@@ -30,6 +30,23 @@ After evaluating multiple classification models, the tuned decision tree classif
 The strong performance of the decision tree suggests that nonlinear relationships and feature interactions play an important role in predicting high-growth YouTube channels. By tuning model hyperparameters such as tree depth and minimum sample sizes, the model was able to generalize effectively while reducing overfitting.
 
 In addition to its predictive strength, the decision tree model provides interpretable insights through feature importance rankings, allowing Horizon Consultancy and Marketing Group to better understand which factors most strongly influence channel growth and to translate these insights into actionable marketing strategies.
+## **Limitations**
+There are several limitations to be considered when interpreting and applying our model’s results.
+
+First, the model relies on historical and aggregated channel-level data, which may not fully capture short-term trends, content quality, or external factors such as viral events, platform algorithm changes, or shifts in audience behavior. As a result, predictions may be less accurate for channels experiencing sudden or atypical growth patterns.
+
+Second, changes in input data i.e small variations in feature values or the introduction of new channels with different characteristics may affect model stability and prediction reliability.
+
+Finally, some features used in the model, such as demographic or economic indicators, are proxy variables that may not directly influence channel growth but instead correlate with broader market conditions. This introduces uncertainty in causal interpretation and limits the model’s ability to explain why growth occurs, rather than simply predicting when it is likely.
+## **Recommendations**
+Based on our findings, Horizon Consultancy and Marketing Group can use these predictions to more effectively identify YouTube channels with high growth potential and allocate marketing resources strategically.
+
+Channels predicted to have high growth should be prioritized for partnership opportunities, promotional campaigns, and early-stage brand collaborations, as these creators are more likely to deliver increasing reach and engagement over time. By focusing on these channels, the agency can maximize return on marketing investment while minimizing spending on low-growth prospects.
+
+Additionally, insights from feature importance analysis suggest that certain channel and market characteristics are strongly associated with growth. Where feasible, the agency can advise clients to optimize controllable factors—such as content consistency, recent engagement momentum, and audience reach—to improve their likelihood of being classified as high-growth.
+
+Finally, the model should be used as a decision-support tool rather than a definitive predictor. Combining model outputs with human expertise and qualitative assessments will help ensure that marketing strategies remain flexible and responsive to emerging trends, platform changes, and creative factors not captured in the data.
+
 ## **Conclusion**
 This project demonstrated the application of predictive modeling techniques to address a real-world digital marketing problem: identifying high-growth YouTube channels. By framing the problem as a binary classification task, multiple models were built and evaluated using an iterative approach, including logistic regression and decision tree classifiers.
 
