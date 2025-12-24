@@ -1,15 +1,20 @@
 # Phase_3_Project
-# **HORIZON CONSULTANCY & MARKETING GROUP:** *PREDICTING HIGH-GROWTH YOUTUBE CHANNELS USING CLASSIFICATION MODEL*
+# **HORIZON CONSULTANCY & MARKETING GROUP:** PREDICTING HIGH-GROWTH YOUTUBE CHANNELS USING CLASSIFICATION MODEL
 ## **Business Understanding**
 ## Overview
 Horizon Consultancy and Marketing Group is looking forward to patnering with influential YouTubers to help promote several brands that the company will be working with in the next few months.
+
 The company's Business Development Manager needs information to identify YouTube channels that are likely to experience high subscriber growth in the next month so they can target them for early brand partnerships. Therefore they require to make data-driven decisions based on the predictions from the classification model.
 ## **Data Understanding**
 The dataset used in this project is Global YouTube Statistics. It offers a perfect avenue to analyze and gain valuable insights from the experts on the platform. It contains 28 columns including:
-*Channel metrics: subscribers, video views, uploads, rank
-*Categorical features: category, channel_type, Country
-*Growth indicators: subscribers_for_last_30_days
-*Country-level context: population, unemployment rate, education enrollment 
+> Channel metrics: subscribers, video views, uploads, rank
+
+> Categorical features: category, channel_type, Country
+
+> Growth indicators: subscribers_for_last_30_days
+
+> Country-level context: population, unemployment rate, education enrollment 
+
 Therefore, this makes it suitable for classification. Our target variable derived from this dataset is High growth channel which makes 'subscribers_last_30_days' the binary classification target.
 ## **Modeling**
 The models use channel-level performance metrics, content characteristics, and country-level socioeconomic indicators as features. These variables were selected because they are available prior to subscriber growth and are likely to influence a channel’s ability to attract new subscribers.
