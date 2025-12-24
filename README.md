@@ -1,5 +1,5 @@
 # Phase_3_Project
-# **HORIZON CONSULTANCY AND MARKETING GROUP:** *PREDICTING HIGH-GROWTH YOUTUBE CHANNELS USING CLASSIFICATION MODEL*
+# **HORIZON CONSULTANCY & MARKETING GROUP:** *PREDICTING HIGH-GROWTH YOUTUBE CHANNELS USING CLASSIFICATION MODEL*
 ## **Business Understanding**
 ## Overview
 Horizon Consultancy and Marketing Group is looking forward to patnering with influential YouTubers to help promote several brands that the company will be working with in the next few months.
